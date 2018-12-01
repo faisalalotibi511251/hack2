@@ -8,3 +8,7 @@ let alpha = new Discord.RichEmbed()
 alpha.author.sendEmbed(alpha);
 }
 });
+
+
+
+client.login(process.env.BOT_TOKEN);
